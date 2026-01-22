@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio Book</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Box Icons -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Covers -->
+        <div class="cover cover-left"></div>
+        <div class="cover cover-right"></div>
+        <!-- Book -->
+        <div class="book">
+            <!-- =================
+                 FIRST SPREAD 
+                 ================= -->
+            <!-- LEFT PAGE -->
+            <div class="book-page page-left active">
+                <img src="images/ChatGPT Image Dec 17, 2025, 04_20_52 PM.png" alt="Profile" class="profile-img">
+                <h1>Vinay Gyandas Lodhi</h1>
+                <h3>Web Developer</h3>
+
+                <p class="intro">
+                    Hi, I'm Vinay Gyandas Lodhi, a web developer from India passionate about
+                    building clean, user-friendly, and impactful web applications.
+                    I enjoy solving problems and continuously improving my skills
+                    in modern web technologies.
+                </p>
+
+                <div class="social-media">
+                    <a href="#"><i class="bx bxl-facebook"></i></a>
+                    <a href="#"><i class="bx bxl-twitter"></i></a>
+                    <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+                    <a href="#"><i class="bx bxl-linkedin"></i></a>
+                </div>
+
+                <div class="btn-box">
+                    <a href="#" class="btn">Download CV</a>
+                    <a href="#" class="btn btn-outline">Contact Me</a>
+                </div>
+            </div>
+
+            <!-- RIGHT PAGE -->
+            <div class="book-page page-right active">
+                <h2 class="work-title">Work Experience</h2>
+                <div class="experience-list">
+                    <div class="experience-item">
+                        <span class="circle"></span>
+                        <div class="exp-content">
+                            <span class="exp-date">
+                                <i class="bx bx-calendar"></i>
+                                May 2025 – Nov 2025
+                            </span>
+                            <h3>IT Intern – L&T Energy (Offshore IC)</h3>
+                            <p>
+                                Completed a six-month internship in the Information Technology
+                                Department at Larsen &amp; Toubro Limited, Mumbai.
+                                Worked on Offline POC and Centenary V2 projects.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="experience-item">
+                        <span class="circle"></span>
+                        <div class="exp-content">
+                            <span class="exp-date">
+                                <i class="bx bx-calendar"></i>
+                                Dec 2025 – Present
+                            </span>
+                            <h3>IT Intern – L&T Energy (Offshore IC)</h3>
+                            <p>
+                                Continuing work as an IT Intern, supporting ongoing
+                                IT initiatives and internal systems.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- NAV -->
+                <button class="nav next" onclick="goNext()">
+                    <i class="bx bx-chevron-right"></i>
+                </button>
+                <span class="page-number">1</span>
+            </div>
+            <!-- ================= 
+                 SECOND SPREAD  
+                 ================= -->
+            <!-- NEXT LEFT PAGE EDUCATION  (Page 3) -->
+            <div class="book-page page-left">
+                <h2 class="work-title">Education</h2>
+                <div class="experience-list education-list">
+                    <div class="experience-item">
+                        <span class="circle"></span>
+                        <div class="exp-content">
+                            <span class="exp-date">
+                                <i class="bx bx-calendar"></i>
+                                2020 – 2023
+                            </span>
+                            <h3>Bachelor of Computer Science</h3>
+                            <p>
+                                ABC University, India.<br>
+                                Specialized in Web Development, Databases, and Software Engineering.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="experience-item">
+                        <span class="circle"></span>
+                        <div class="exp-content">
+                            <span class="exp-date">
+                                <i class="bx bx-calendar"></i>
+                                2018 – 2020
+                            </span>
+                            <h3>Higher Secondary (Science)</h3>
+                            <p>
+                                XYZ Junior College.<br>
+                                Focused on Mathematics, Physics, and Computer Science.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <button class="nav prev" onclick="goPrev()">
+                    <i class="bx bx-chevron-right"></i>
+                </button>
+                <span class="page-number">2</span>
+            </div>
+            <!-- NEXT RIGHT PAGE (Page 4) -->
+            <div class="book-page page-right blank-page">
+                <span class="page-number">3</span>
+                <h2 class="work-title">Services</h2>
+                <div class="services-list">
+                    <div class="service-item">
+                        <i class="bx bx-code-alt"></i>
+                        <h3>Web Development</h3>
+                        <p>
+                            high-performance websites using
+                            modern HTML, CSS, JavaScript.
+                        </p>
+                    </div>
+
+                    <div class="service-item">
+                        <i class="bx bx-layer"></i>
+                        <h3>Full-Stack Development</h3>
+                        <p>
+                            End-to-end application development including APIs,
+                            databases, authentication, and deployment.
+                        </p>
+                    </div>
+
+                    <div class="service-item">
+                        <i class="bx bx-data"></i>
+                        <h3>Database Design</h3>
+                        <p>
+                            Designing optimized SQL databases with secure schemas,
+                            relationships, and performance tuning.
+                        </p>
+                    </div>
+
+                    <div class="service-item">
+                        <i class="bx bx-wrench"></i>
+                        <h3>Application Support</h3>
+                        <p>
+                            Debugging, maintenance, and enhancement of existing
+                            enterprise and internal applications.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ============
+                 THIRD SPREAD 
+                 =============-->
+            <!-- NEXT LEFT PAGE EDUCATION  (Page 3) -->
+            <div class="book-page page-left">
+                <h2 class="work-title text-center">My Skills</h2>
+
+                <!-- FRONTEND -->
+                <h3 class="skill-category">Front-End</h3>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <img src="images/html5.svg" alt="HTML">
+                        <span>HTML</span>
+                    </div>
+                    <div class="skill-card">
+                        <img src="images/css-3_732007.png" alt="CSS">
+                        <span>CSS</span>
+                    </div>
+                    <div class="skill-card">
+                        <img src="images/javascript.svg" alt="JavaScript">
+                        <span>JS</span>
+                    </div>
+                    <div class="skill-card">
+                        <img src="images/angular.svg" alt="Angular">
+                        <span>Angular</span>
+                    </div>
+                    <div class="skill-card">
+                        <img src="images/react.svg" alt="React">
+                        <span>React</span>
+                    </div>
+                    <div class="skill-card">
+                        <img src="images/bootstrap.svg" alt="Bootstrap">
+                        <span>Bootstrap</span>
+                    </div>
+                    <div class="skill-card">
+                        <img src="images/tailwindcss.svg" alt="Tailwind">
+                        <span>Tailwind</span>
+                    </div>
+                </div>
+
+                <!-- BACKEND -->
+                <h3 class="skill-category">Back-End</h3>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <img src="images/python.svg" alt="Python">
+                        <span>Python</span>
+                    </div>
+                    <div class="skill-card">
+                        <img src="images/java-logo_14427.png" alt="Java">
+                        <span>Java</span>
+                    </div>
+                    <div class="skill-card">
+                        <img src="images/php_919830.png" alt="PHP">
+                        <span>PHP</span>
+                    </div>
+                    <div class="skill-card">
+                        <img src="images/nodedotjs.svg" alt="Node">
+                        <span>Node</span>
+                    </div>
+                </div>
+
+                <!-- UI UX -->
+                <h3 class="skill-category">UI / UX Design</h3>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <img src="images/figma.svg" alt="Figma">
+                        <span>Figma</span>
+                    </div>
+                </div>
+                <button class="nav prev" onclick="goPrev()">
+                    <i class="bx bx-chevron-right"></i>
+                </button>
+                <span class="page-number">4</span>
+            </div>
+
+            <!-- NEXT RIGHT PAGE (Page 4) -->
+            <div class="book-page page-right blank-page">
+                <span class="page-number">5</span>
+                <h2 class="contact-title">Contact Me!</h2>
+
+                <form class="contact-form">
+                    <input type="text" placeholder="Full Name" required />
+                    <input type="email" placeholder="Email Address" required />
+                    <textarea placeholder="Your Message" rows="6" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+
+                <div class="profile-fab" onclick="goToProfile()">
+                    <i class="bx bx-user"></i>
+                    <span class="profile-tooltip">Back to Profile</span>
+                </div>
+            </div>
+            <button class="nav next" onclick="goNext()">
+                <i class="bx bx-chevron-right"></i>
+            </button>
+
+             <!-- ============
+                 FOURTH SPREAD 
+                 =============-->
+                 
+
+            <!-- ================= 
+         SCRIPT 
+         ================= -->
+            <audio id="pageSound" src="images/mp3/page-flip-47177.mp3" preload="auto"></audio>
+            <script src="script.js"></script>
+            </div>
+    </div>
+    
+</body>
+
+</html>
