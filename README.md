@@ -51,7 +51,7 @@ OR Use Live Server in VS Code for best experience
 🌐 Live Demo
 
 This project is deployed using GitHub Pages:
-🔗 Live Preview: ()
+🔗 Live Preview: (https://vinayyyy123.github.io/Personal-Portfolio-Book/)
 
 📌 Use Cases
 
